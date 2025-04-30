@@ -1,16 +1,19 @@
 body {
   margin: 0;
   background-color: black;
-  height: 100vh;
+  height: 90vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-top: 25px;
 }
 
 .calculator {
   padding: 20px;
   width: 320px;
+  height: 90%;
   border: solid 2px white;
+  border-radius: 25px;
 }
 
 #display {
@@ -24,6 +27,7 @@ body {
   border-radius: 15px;
   background-color: transparent;
   color: white;
+  border: solid 2px white;
 }
 
 ::placeholder {
